@@ -3,8 +3,6 @@ body{
   padding: 0;
 }
 
-
-
 form{
   width: 500px;
   height: 600px;
@@ -19,7 +17,7 @@ form{
 .divForm2{
   display: flex;
   flex-direction: column;
-  padding:30px;
+  padding:40px;
 
 }
 .divForm1{
@@ -45,13 +43,12 @@ button{
   background: #fdfdfd
 }
 
-
 @media only screen and (max-width: 600px){
   body{
     margin-top: 20px;
   }
   form{
-  width: 500px;
+  width: 400px;
   height: 600px;
   background: #80c64a;
   border-radius: 10px;
